@@ -1,0 +1,2 @@
+# C3 : support peut lancer uniquement analyse_logs.sh, en root
+support ALL=(root) NOPASSWD: /usr/local/sbin/analyse_logs.sh

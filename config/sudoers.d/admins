@@ -1,0 +1,2 @@
+# C3 : les membres du groupe admins ont sudo (avec mot de passe)
+%admins ALL=(ALL:ALL) ALL
