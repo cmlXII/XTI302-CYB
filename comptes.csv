@@ -1,0 +1,12 @@
+login;nom;groupe_principal;groupes_secondaires
+admin1;Administrateur Un;admins;acces_ssh
+admin2;Administrateur Deux;admins;acces_ssh
+support;Compte Support;support;acces_ssh
+alice;Alice Martin;dev;
+paul;Paul Bernard;dev;
+lea;Lea Dupont;design;
+lucas;Lucas Petit;design;
+emma;Emma Robert;commercial;
+hugo;Hugo Moreau;commercial;
+nina;Nina Leroy;freelance;
+yanis;Yanis Simon;freelance;
