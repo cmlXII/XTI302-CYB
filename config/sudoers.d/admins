@@ -1,2 +1,3 @@
-# C3 : les membres du groupe admins ont sudo (avec mot de passe)
+# C3 : les membres du groupe admins ont tous les droits via sudo.
+# Le mot de passe du compte est demandé à chaque sudo (pas de NOPASSWD).
 %admins ALL=(ALL:ALL) ALL

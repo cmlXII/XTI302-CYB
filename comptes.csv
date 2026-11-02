@@ -1,7 +1,8 @@
 login;nom;groupe_principal;groupes_secondaires
-admin1;Administrateur Un;admins;acces_ssh
-admin2;Administrateur Deux;admins;acces_ssh
-support;Compte Support;support;acces_ssh
+ilian;Ilian Boubadra;admins;acces_ssh
+ilhan;Ilhan;admins;acces_ssh
+camille;Camille;admins;acces_ssh
+support;Compte support;support;acces_ssh
 alice;Alice Martin;dev;
 paul;Paul Bernard;dev;
 lea;Lea Dupont;design;

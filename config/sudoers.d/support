@@ -1,2 +1,5 @@
-# C3 : support peut lancer uniquement analyse_logs.sh, en root
+# C3 : support peut lancer uniquement analyse_logs.sh, en root, et rien d'autre.
+# Le script est installé dans /usr/local/sbin, propriété de root, en 0755 :
+# si support pouvait le modifier, il y mettrait n'importe quelle commande
+# et l'exécuterait en root.
 support ALL=(root) NOPASSWD: /usr/local/sbin/analyse_logs.sh
