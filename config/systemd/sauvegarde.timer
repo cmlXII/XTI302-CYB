@@ -1,0 +1,14 @@
+# B2 : sauvegarde planifiée tous les jours à 2 h 30
+# Persistent=true : si la machine était éteinte à l'heure prévue, la
+# sauvegarde est lancée au démarrage suivant (cron l'aurait sautée).
+# Voir les prochaines exécutions : systemctl list-timers sauvegarde.timer
+[Unit]
+Description=Planification quotidienne de la sauvegarde (B2)
+
+[Timer]
+OnCalendar=*-*-* 02:30:00
+Persistent=true
+RandomizedDelaySec=10min
+
+[Install]
+WantedBy=timers.target

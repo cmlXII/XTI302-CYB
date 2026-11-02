@@ -1,0 +1,11 @@
+# B2 : service lancé par sauvegarde.timer
+# Sa sortie va dans le journal : journalctl -u sauvegarde.service
+[Unit]
+Description=Sauvegarde incrémentale de /etc et /srv (B1)
+RequiresMountsFor=/sauvegardes
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/sauvegarde.sh
+Nice=10
+IOSchedulingClass=idle
