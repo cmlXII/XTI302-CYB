@@ -1,0 +1,6 @@
+// D1 : mises à jour de sécurité automatiques (paquet unattended-upgrades)
+// Chaque jour : mise à jour de la liste des paquets, puis installation des
+// mises à jour. Les origines autorisées (dont Debian-Security) sont dans
+// /etc/apt/apt.conf.d/50unattended-upgrades, fourni par le paquet.
+APT::Periodic::Update-Package-Lists "1";
+APT::Periodic::Unattended-Upgrade "1";

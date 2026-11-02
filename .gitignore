@@ -1,0 +1,6 @@
+# Aucune clé privée dans le dépôt : seules les clés publiques (.pub) sont suivies
+config/cles/*
+!config/cles/*.pub
+id_*
+!id_*.pub
+*.key
